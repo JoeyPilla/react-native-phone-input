@@ -31,11 +31,12 @@
   "dependencies": {
     "google-libphonenumber": "^3.2.2",
     "lodash": "^4.17.21",
-    "prop-types": "^15.5.10"
+    "prop-types": "^15.5.10",
+    "react-native-paper": "^4.12.1"
   },
   "peerDependencies": {
-    "react-native": ">= 0.25",
-    "@react-native-picker/picker": ">= 2.0"
+    "@react-native-picker/picker": ">= 2.0",
+    "react-native": ">= 0.25"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^0.1.3",
