@@ -9,8 +9,10 @@ import CountryPicker from "./CountryPicker";
 import { ReactNativePhoneInputProps } from "./typings";
 
 export default class PhoneInput<
+    // @ts-ignore
     TextComponentType extends React.ComponentType = typeof TextInput
 > extends React.Component<ReactNativePhoneInputProps<TextComponentType>, any> {
+    // @ts-ignore
     static setCustomCountriesData(json) {
         Country.setCustomCountriesData(json);
     }
@@ -19,6 +21,7 @@ export default class PhoneInput<
 
     private inputPhone: any;
 
+    // @ts-ignore
     constructor(props) {
         super(props);
 
