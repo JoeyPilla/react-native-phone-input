@@ -1,6 +1,6 @@
 import React from "react"; // eslint-disable-line import/no-extraneous-dependencies, no-use-before-define
 import { Image, TouchableOpacity, View } from "react-native";
-import { TextInput } from "react-native-paper";
+import TextInput from "./TextInput";
 import Country from "./country";
 import Flags from "./resources/flags";
 import PhoneNumber from "./PhoneNumber";
